@@ -26,7 +26,7 @@ class Dog
   end
   
   def save
-     @@all << object_id
+     @@all << self
    end
     
 end
