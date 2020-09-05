@@ -22,4 +22,5 @@ class Dog
       puts "#{@@all[i]}"
       i += 1 
     end
+  end
 end
