@@ -15,4 +15,11 @@ class Dog
   def self.clear_all 
     @@all.clear
   end
+  
+  def self.print_all
+    i = 0 
+    while i < @@all.length 
+      puts "#{@@all[i]}"
+      i += 1 
+    end
 end
