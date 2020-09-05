@@ -19,7 +19,7 @@ class Dog
   def self.print_all
     i = 0 
     while i < @@all.length 
-      puts "#{@@all[i]}"
+      puts "#{@@all[i].name}"
       i += 1 
     end
   end
